@@ -1,0 +1,4 @@
+.pypirc
+.DS_Store
+.ssh/*
+.jobber

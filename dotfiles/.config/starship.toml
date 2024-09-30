@@ -1,0 +1,96 @@
+# Use custom formati
+# 
+#
+#
+[directory]
+format = "[ $path ]($style)"
+style = "fg:purple bg:white"
+home_symbol = "🦊"
+
+[ruby]
+format = '[ via $symbol($version)]($style)'
+style = "fg:black bg:red"
+
+[python]
+format = '[ via ${symbol}${pyenv_prefix}(${version} )(\($virtualenv\))]($style)'	
+style = "fg:green bg:8"
+
+[nodejs]
+format = '[ via $symbol($version )]($style)'
+version_format = 'v${raw}'
+style = "fg:green bg:8"
+not_capable_style = "fg:bold red bg:8"
+
+[package]
+format= '[via 📦 $version]($style)'
+style = "fg:208 bg:8"
+
+[gcloud]
+disabled = true
+
+[git_branch]
+format = '[ on $symbol$branch ]($style)'
+style = "fg:purple bg:8"
+
+[golang]
+format = "[ via $symbol($version )]($style)"
+style = "fg:bold cyan bg:8"
+
+[rust]
+format = "[ via $symbol($version )]($style)"
+style = "fg:bold red bg:8"
+
+[cmake]
+format ="[via $symbol($version )]($style)"
+style = "fg:bold blue bg:8"
+
+[c]
+format = "[via $symbol($version(-$name) )]($style)"
+style = "fg:bold 149 bg:8"
+
+
+
+[terraform]
+format = "[ via $symbol$workspace ]($style)"
+style = "fg:105 bg:8"
+
+[cmd_duration]
+disabled = true
+
+[git_status] 
+format = '([\[$all_status$ahead_behind\] ]($style))'
+style = "bg:8"
+
+
+
+#[custom.arcticwolfbreak]
+#doesn't actually work
+#Idea is to have it be every hour
+#when = """date +%H%M | grep 00"""
+#command = "fish -c 'sleep 50; echo Take a break!'& "
+#symbol = "🐺"
+#format = "[$symbol($output)](bg:white fg:black)"
+
+#[custom.lunchbreak]
+#when = """date +%H%M | egrep "12[0-2]""""
+#command = "echo It is lunch time..."
+#symbol = "🐺"
+#format = "[ $symbol ($output)](bg:white fg:black)"
+
+#[custom.lunchbreaklate]
+#when = """date +%H%M | egrep "12[3-5]""""
+#command = "echo ...Seriously, Lunch Break."
+#symbol = "🐺"
+#format = "[ $symbol ($output)](bg:white fg:black)"
+
+
+
+[username]
+show_always = true
+style_user = "bg:purple"
+format = "[ $user in ]($style)"
+
+[shell]
+disabled = false
+fish_indicator = '🍣'
+bash_indicator ='\$'
