@@ -1,5 +1,5 @@
 Config files that have been sanitized for public consumption
-Proudly backed up with `shallow-backup` 
+Proudly backed up with [`shallow-backup`](https://github.com/alichtman/shallow-backup)
 
 # Some Things To Know: 
 This is my personal backup, your mileage may vary.
