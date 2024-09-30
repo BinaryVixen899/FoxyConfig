@@ -9,7 +9,7 @@ Config mapping conforms to the configs/ directory (only some portions of this di
 There are some files in my dotfiles that aren't publicly backed up, because you don't need to know about them. 
 
 # Isn't Backing Up Your Config Risky? 
-Yes, and that's why I use `shallow-backup`, which includes `truffle-hog`to check for secrets. Additionally, I only push to this repo manually and if something isn't useful to back up, it's either not backed up or not public. I have a file called `REDACT.TXT`that I use to do exactly what you think. Also, all changes are done via PR in order to really drive home that psychological safety. Also, 
+Yes, and that's why I use `shallow-backup`, which includes `truffle-hog`to check for secrets. Additionally, I only push to this repo manually and if something isn't useful to back up, it's either not backed up or not public. I have a file called `REDACT.TXT`that I use to do exactly what you think. Also, all changes are done via PR in order to really drive home that psychological safety.
 
 # TODO
  PUBLIC (FOXYCONFIG), PRIVATE (FOXIERCONFIG)
