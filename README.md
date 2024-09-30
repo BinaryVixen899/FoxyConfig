@@ -1,3 +1,4 @@
+Config files that have been sanitized for public consumption
 Proudly backed up with `shallow-backup` 
 
 # Some Things To Know: 
