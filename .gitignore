@@ -1,0 +1,23 @@
+dotfiles/.ssh
+dotfiles/.pypirc
+.DS_Store
+.ssh/*
+packages/*
+configs/gallery-dl/*
+configs/nccm.yml
+configs/youtube-dl_config
+.jobber
+.pypirc
+
+#These come from plugins so adding them would be redundant
+dotfiles/.config/fish/functions/rvm.fish
+dotfiles/.config/fish/functions/nvm.fish
+dotfiles/.config/fish/functions/fisher.fish
+dotfiles/.config/fish/functions/__ssh_agent_start.fish
+dotfiles/.config/fish/functions/__ssh_agent_is_started.fish
+
+#nvim is new and I have not made sure nothing in the NVIM files contains sensitive information
+configs/nvim/*
+dotfiles/.config/nvim/*
+
+redact.txt
